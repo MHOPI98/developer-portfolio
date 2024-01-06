@@ -87,7 +87,7 @@ nav a {
 
 .banner-title {
     color: #181818;
-    font-size: 85px;
+    font-size: 50px;
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 20px;
@@ -158,6 +158,45 @@ main {
     font-weight: 700;
     margin-top: 2px;
 }
-#mh{
+
+#mh {
     padding: 30px 150px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.skill-title {
+    color: #181818;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skill-desc {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+main section {
+    margin-top: 130px;
+}
+
+.resume-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+
 }
