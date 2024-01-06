@@ -1,41 +1,52 @@
 /* common shared styles */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
-.header{
+
+.header {
     background: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
+
 /* nav related style */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 200px;
 }
-.nav-title{
-    color:  #181818;
+
+.nav-title {
+    color: #181818;
     font-size: 45px;
     font-weight: 800;
-    
+
 }
-.orange{
-    color:#FD6E0A;;
+
+.orange {
+    color: #FD6E0A;
+    ;
 }
- nav>ul {
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li
-{
+
+nav li {
     list-style: none;
     margin-right: 50px;
-    
+
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
 }
-.btn-p{
+
+.btn-p {
     border-radius: 5px;
     background: #FD6E0A;
     padding: 18px 35px;
@@ -43,20 +54,76 @@ nav a{
     font-size: 20px;
     font-weight: 700;
     border: 0;
+    margin-right: 30px;
 }
-.btn-t{
+
+.btn-t {
     border-radius: 5px;
     padding: 18px 35px;
     font-size: 20px;
     font-weight: 700;
-    border-color:#FD6E0A;
+    border-color: #FD6E0A;
     color: #FD6E0A;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     text-align: center;
+    justify-content: space-between;
 }
-.banner .pic{
-    width: 100%;
+
+.banner .pic {
+    width: 500px;
+}
+
+.banner-greeting {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+
+}
+
+.banner-title {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.banner-content {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+
+.selection-title {
+
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.selection-content {
+    color:  #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+
+/* about section  */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
 }
