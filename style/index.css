@@ -2,12 +2,15 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-
+.header{
+    background: #FFF8F3;
+}
 /* nav related style */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 200px;
 }
 .nav-title{
     color:  #181818;
@@ -40,4 +43,20 @@ nav a{
     font-size: 20px;
     font-weight: 700;
     border: 0;
+}
+.btn-t{
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: 700;
+    border-color:#FD6E0A;
+    color: #FD6E0A;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    text-align: center;
+}
+.banner .pic{
+    width: 100%;
 }
